@@ -10,7 +10,8 @@ Killa - [d-meade]
 
 # Progress
 *[Main](Sable_Seas/Sable_Seas/Sable_Seas.cpp)
-
+[ship class](Sable_Seas/Sable_Seas/Ship_Array.h)
+[weapon class](Sable_Seas/Sable_Seas/Weapon_Array.h)
 # Description
 	Recreation of Flop's Game for purpose of prototyping
 	
@@ -18,8 +19,8 @@ Killa - [d-meade]
 
 | Task           | Date Started | Current Status | Percentage
 |----------------|---------------|----------------|------|
-| Ship Array    | N/A  | Not Started  | 0%
-| Weapon Array    | N/A | Not started | 0%
+| Ship Array    | 12/18/2019 10:50p.m  | In Progress  | 0%
+| Weapon Array    | 12/18/2019 10:50p.m | In Progrss | 0%
 | Mob Array   | N/A  | Not started | 0%
 | Player Page   | N/A  | Not started  | 0%
 | Engine room    | N/A  | Not started  | 0%
