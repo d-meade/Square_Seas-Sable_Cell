@@ -10,7 +10,9 @@ Killa - [d-meade]
 
 # Progress
 *[Main](Sable_Seas/Sable_Seas/Sable_Seas.cpp)
+
 [ship class](Sable_Seas/Sable_Seas/Ship_Array.h)
+
 [weapon class](Sable_Seas/Sable_Seas/Weapon_Array.h)
 # Description
 	Recreation of Flop's Game for purpose of prototyping
