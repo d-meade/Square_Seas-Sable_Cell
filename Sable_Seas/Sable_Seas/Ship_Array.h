@@ -13,9 +13,12 @@ public:
 	int ArmorHp;	// between 500 - 50k
 	int JumpFuel;	// between 3-8
 	int Energy;		
-	//TODO: add slots
+	//TODO: add slots for weapons
+	//Size/Type/Mounts/Reloads
+	weapon slot[4];
 	int Evasion;	//between 1-99
 	int Detection;	//between 1-20
 	int Stealh;		//between 1-5
 	string Description;
+	ship() {}
 };

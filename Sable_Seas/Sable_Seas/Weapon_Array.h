@@ -2,7 +2,7 @@
 #include <string>
 
 using namespace std;
-class Weapon
+class weapon
 {
 public:
 	string Name;
@@ -18,4 +18,6 @@ public:
 	int AmmoUse;
 	int Durability;
 	string Description;
+	int Mount; //how many of the same weapon
+	weapon() {}
 };
