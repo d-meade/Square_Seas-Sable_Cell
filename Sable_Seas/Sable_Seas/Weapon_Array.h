@@ -19,5 +19,24 @@ public:
 	int Durability;
 	string Description;
 	int Mount; //how many of the same weapon
-	weapon() {}
+
+	// Build Weapon Constructor TODO
+	weapon(string n, string s, string t, int tl, int dmg, 
+		int acc, int mag, int pwr, string r, string tag, int amm, int dur, int mount) 
+	{
+		Name = n;
+		Size = s;
+		Type = t;
+		TechLv = tl;
+		Damage = dmg;
+		Accuracy = acc;
+		Magazine = mag;
+		PowerUse = pwr;
+		Range = r;
+		Tag = tag;
+		AmmoUse = amm;
+		Durability = dur;
+		Mount = mount;
+		Description = "Empty";
+	}
 };

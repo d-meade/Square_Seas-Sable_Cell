@@ -152,6 +152,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Sable_Seas.cpp" />
+    <ClCompile Include="Ship_Array.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Ship_Array.h" />
