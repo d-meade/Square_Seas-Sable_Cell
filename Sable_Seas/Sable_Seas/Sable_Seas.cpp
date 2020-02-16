@@ -2,10 +2,18 @@
 //
 
 #include <iostream>
-
+#include "Ship_Array.h"
 int main()
 {
-    std::cout << "Hello World!\n";
+	//ship(string n, string sc, int tl, int hHP, int aHP, int jf, int Eng, int Eva, int Det, int stealth)
+	//weapon(string n, string s, string t, int tl, int dmg,int acc, int mag, int pwr, string r, string tag, int amm, int dur, int mount)
+	ship tyson = ship("tyson", "M", 2, 500, 500, 6, 20, 3, 60, 1200);
+	tyson.AddWeapon(0, weapon("180mm", "M", "physical", 1, 100, 20, 30, 50, "M", "GFD", 30, 50, 3));
+	ship byson = ship("byson", "M", 2, 500, 500, 6, 20, 3, 60, 1200);
+	tyson.AddWeapon(0, weapon("180mm", "M", "physical", 1, 100, 20, 30, 50, "M", "GFD", 30, 50, 3));
+	//tyson.Attack(0, &byson);
+    std::cout << tyson.Attack(0, &byson) << "\nHello World!\n";
+	std::cout <<"byson health is at "<< byson.HullHp;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

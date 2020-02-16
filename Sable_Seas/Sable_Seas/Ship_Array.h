@@ -23,7 +23,7 @@ public:
 	// build ship with variables above. TODO
 	// Maybe a gear score for balance? - Killa
 	// Should ther be shields for the ships? -Killa
-	ship(string n, string sc,int tl, int hHP, int aHP, int jf, int Eng, int Eva, int Det, int stealth) 
+	ship(string n, string sc, int tl, int hHP, int aHP, int jf, int Eng, int Eva, int Det, int stealth)
 	{
 		Name = n;
 		ShipClass = sc;
@@ -36,14 +36,16 @@ public:
 		Detection = Det;
 		Stealh = stealth;
 		Description = "empty";
+		//slot = wep;
 
+	};
 
-	}
+	void AddWeapon(int slot, weapon wep);
 
 	/* function that should handle attacking by
 		calculating damage, reducing ammo of weapon,
 		and reducing ship health of target. 
 		handles if attack hits.
 		damage will take resistence into  account in later Version TODO*/
-	string Attack(weapon slot, ship* target) {}
+	string Attack(int slot, ship* target);
 };
